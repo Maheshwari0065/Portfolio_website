@@ -95,7 +95,7 @@ export default function Contact({ darkMode }) {
           {/* Info Card Panel */}
           <div className="lg:col-span-5 space-y-6">
             <div className={`p-6 rounded-2xl border transition-all ${
-              darkMode ? 'bg-slate-900/40 border-slate-850' : 'bg-white border-slate-100 shadow-sm'
+              darkMode ? 'bg-slate-900/40 border-slate-800' : 'bg-white border-slate-100 shadow-sm'
             }`}>
               <h3 className="font-display font-bold text-base sm:text-lg mb-4 flex items-center space-x-2 text-indigo-550 text-indigo-500">
                 <MessageSquare size={18} />
@@ -114,8 +114,8 @@ export default function Contact({ darkMode }) {
                     rel="noreferrer"
                     className={`flex items-center space-x-3.5 p-3.5 rounded-xl border text-xs font-medium transition-all ${
                       darkMode 
-                        ? 'bg-slate-950/40 border-slate-850 hover:bg-slate-950 hover:border-slate-800' 
-                        : 'bg-slate-50 border-slate-200 hover:bg-white hover:border-slate-30 shadow-sm'
+                        ? 'bg-slate-950/40 border-slate-800 hover:bg-slate-950 hover:border-slate-800' 
+                        : 'bg-slate-50 border-slate-200 hover:bg-white hover:border-slate-300 shadow-sm'
                     }`}
                   >
                     <div className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900' : 'bg-white shadow-sm'}`}>
@@ -134,7 +134,7 @@ export default function Contact({ darkMode }) {
           {/* Contact Input Form */}
           <div className="lg:col-span-7">
             <div className={`p-6 sm:p-8 rounded-2xl border transition-all ${
-              darkMode ? 'bg-slate-900/40 border-slate-850' : 'bg-white border-slate-100 shadow-sm'
+              darkMode ? 'bg-slate-900/40 border-slate-800' : 'bg-white border-slate-100 shadow-sm'
             }`}>
               
               {isSent ? (
@@ -160,7 +160,7 @@ export default function Contact({ darkMode }) {
                         onChange={handleChange}
                         className={`w-full text-xs px-4 py-3 rounded-xl border focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-all ${
                           darkMode 
-                            ? 'bg-slate-950/80 border-slate-850 text-white focus:border-indigo-500' 
+                            ? 'bg-slate-950/80 border-slate-800 text-white focus:border-indigo-500' 
                             : 'bg-slate-50 border-slate-200 text-slate-900 focus:border-indigo-500'
                         }`}
                         placeholder="John Doe"
@@ -178,7 +178,7 @@ export default function Contact({ darkMode }) {
                         onChange={handleChange}
                         className={`w-full text-xs px-4 py-3 rounded-xl border focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-all ${
                           darkMode 
-                            ? 'bg-slate-955 border-slate-850 text-white focus:border-indigo-500' 
+                            ? 'bg-slate-950 border-slate-800 text-white focus:border-indigo-500' 
                             : 'bg-slate-50 border-slate-200 text-slate-900 focus:border-indigo-500'
                         }`}
                         placeholder="john@example.com"
@@ -198,7 +198,7 @@ export default function Contact({ darkMode }) {
                       onChange={handleChange}
                       className={`w-full text-xs px-4 py-3 rounded-xl border focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-all ${
                         darkMode 
-                          ? 'bg-slate-955 border-slate-850 text-white focus:border-indigo-500' 
+                          ? 'bg-slate-950 border-slate-800 text-white focus:border-indigo-500' 
                           : 'bg-slate-50 border-slate-200 text-slate-900 focus:border-indigo-500'
                       }`}
                       placeholder="Opportunity / Collaboration Inquiry"
@@ -216,7 +216,7 @@ export default function Contact({ darkMode }) {
                       onChange={handleChange}
                       className={`w-full text-xs px-4 py-3 rounded-xl border focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-all resize-none ${
                         darkMode 
-                          ? 'bg-slate-955 border-slate-850 text-white focus:border-indigo-500' 
+                          ? 'bg-slate-950 border-slate-800 text-white focus:border-indigo-500' 
                           : 'bg-slate-50 border-slate-200 text-slate-900 focus:border-indigo-500'
                       }`}
                       placeholder="Hi Maheshwari, I would love to talk about a full-stack opportunity..."

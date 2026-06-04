@@ -6,13 +6,13 @@ import resumePdf from '../public/Maheshwari_Portfolio_Resume.pdf'
 
 export default function Hero({ darkMode }) {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 md:pt-28 overflow-hidden">
       
       {/* Decorative Blur Spheres */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/20 rounded-full blur-[100px] animate-pulse duration-[6000ms]" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-[100px] animate-pulse duration-[8000ms]" />
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 py-12 md:py-24">
+ 
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 py-6 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           {/* Hero Left Content */}
@@ -31,7 +31,7 @@ export default function Hero({ darkMode }) {
               </span>
               <span>Available for Full-time Roles</span>
             </motion.div>
-
+ 
             {/* Main Greeting */}
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
@@ -41,14 +41,14 @@ export default function Hero({ darkMode }) {
             >
               Hi, I'm <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent">Maheshwari S</span>
             </motion.h1>
-
+ 
             {/* Role Header */}
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               className={`font-display font-bold text-2xl sm:text-3xl mt-4 ${
-                darkMode ? 'text-slate-350' : 'text-slate-755'
+                darkMode ? 'text-slate-300' : 'text-slate-700'
               }`}
             >
               Full Stack Developer
@@ -130,7 +130,7 @@ export default function Hero({ darkMode }) {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
-              className="relative w-72 h-72 sm:w-85 sm:h-85"
+              className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96"
             >
               {/* Outer decorative spinning ring */}
               <div className="absolute inset-0 rounded-full border border-dashed border-indigo-500/30 animate-[spin_40s_linear_infinite]" />
