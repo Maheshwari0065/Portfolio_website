@@ -6,7 +6,7 @@ import resumePdf from '../public/Maheshwari_Portfolio_Resume.pdf'
 
 export default function Hero({ darkMode }) {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 md:pt-28 overflow-hidden">
+    <section id="home" className="relative min-h-[85vh] md:min-h-[650px] lg:min-h-screen flex items-center justify-center pt-20 md:pt-28 overflow-hidden">
       
       {/* Decorative Blur Spheres */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/20 rounded-full blur-[100px] animate-pulse duration-[6000ms]" />
@@ -37,7 +37,7 @@ export default function Hero({ darkMode }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tight leading-tight"
+              className="font-display font-extrabold text-4xl sm:text-5xl md:text-5xl lg:text-6xl tracking-tight leading-tight"
             >
               Hi, I'm <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent">Maheshwari S</span>
             </motion.h1>
