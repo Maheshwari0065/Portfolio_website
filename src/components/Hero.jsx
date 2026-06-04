@@ -13,10 +13,10 @@ export default function Hero({ darkMode }) {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-[100px] animate-pulse duration-[8000ms]" />
  
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 py-6 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           
           {/* Hero Left Content */}
-          <div className="lg:col-span-7 text-center lg:text-left">
+          <div className="md:col-span-7 text-center md:text-left">
             
             {/* Tag / Status badge */}
             <motion.div 
@@ -59,7 +59,7 @@ export default function Hero({ darkMode }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className={`mt-6 text-lg max-w-xl leading-relaxed mx-auto lg:mx-0 ${
+              className={`mt-6 text-lg max-w-xl leading-relaxed mx-auto md:mx-0 ${
                 darkMode ? 'text-slate-400' : 'text-slate-600'
               }`}
             >
@@ -71,7 +71,7 @@ export default function Hero({ darkMode }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+              className="mt-10 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4"
             >
               <a 
                 href="#projects" 
@@ -100,7 +100,7 @@ export default function Hero({ darkMode }) {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
-              className="mt-12 flex items-center justify-center lg:justify-start space-x-6 text-slate-500"
+              className="mt-12 flex items-center justify-center md:justify-start space-x-6 text-slate-500"
             >
               <a 
                 href="https://github.com/Maheshwari0065" 
@@ -125,7 +125,7 @@ export default function Hero({ darkMode }) {
           </div>
 
           {/* Hero Right Content (Interactive Tech Visualizer) */}
-          <div className="lg:col-span-5 flex justify-center items-center">
+          <div className="md:col-span-5 flex justify-center items-center">
             <motion.div 
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
