@@ -2,11 +2,11 @@
 
 This is my personal portfolio website showcasing my engineering projects, professional certifications, and internship experiences. It features a modern, clean, responsive design with smooth animations and interactive components.
 
-✨ **Live Demo**: https://maheshwariportfolio.vercel.app/
+ **Live Demo**: https://maheshwariportfolio.vercel.app/
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Dynamic Theme Mode**: Seamless toggle between Dark Mode and Light Mode.
 - **Responsive Layout**: Tailored to look beautiful on desktop, tablet, and mobile devices.
@@ -17,7 +17,7 @@ This is my personal portfolio website showcasing my engineering projects, profes
   
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React (18.2.0), Vite (5.1.4), Tailwind CSS (3.4.1)
 - **Icons**: Lucide React
@@ -26,7 +26,7 @@ This is my personal portfolio website showcasing my engineering projects, profes
 
 ---
 
-## 💻 Local Development
+##  Local Development
 
 Follow these steps to run the project locally on your system:
 
@@ -52,7 +52,7 @@ Open your browser and navigate to the local URL (usually `http://localhost:5173`
 
 ---
 
-## 📦 Production Build
+##  Production Build
 
 To build the static files for production deployment:
 ```bash
