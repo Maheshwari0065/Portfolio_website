@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { ArrowRight, Download, Github, Linkedin, Award } from 'lucide-react'
 import profilePhoto from '../public/profile.jpg'
-import resumePdf from '../public/Maheshwari_Portfolio_Resume.pdf'
 
 export default function Hero({ darkMode }) {
   return (
@@ -82,7 +81,7 @@ export default function Hero({ darkMode }) {
               </a>
 
               <a 
-                href={resumePdf}
+                href="/Maheshwari_S_Resume.pdf"
                 download="Maheshwari_S_Resume.pdf"
                 className={`w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-xl border font-medium transition-all ${
                   darkMode 
