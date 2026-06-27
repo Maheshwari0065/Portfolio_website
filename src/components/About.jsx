@@ -6,7 +6,7 @@ export default function About({ darkMode }) {
     {
       degree: 'Bachelor of Technology in Information Technology',
       institution: 'DMI College of Engineering',
-      info: 'CGPA: 8.94 / 10',
+      info: 'CGPA: 9.0 / 10',
       period: '2022 - 2026',
     },
     {

@@ -25,7 +25,7 @@ export default function Skills({ darkMode }) {
       id: 'tools',
       title: 'Languages & Tools',
       icon: <Wrench size={18} className="text-amber-400" />,
-      skills: ['Python', 'Java', 'SQL', 'Git', 'GitHub', 'VS Code', 'Figma', 'OpenCV', 'MediaPipe', 'NumPy', 'Eclipse']
+      skills: ['Python', 'Java', 'SQL', 'Git', 'GitHub', 'VS Code', 'Postman', 'Vercel', 'Netlify', 'WordPress', 'Figma', 'OpenCV', 'MediaPipe', 'NumPy', 'Eclipse']
     }
   ]
 

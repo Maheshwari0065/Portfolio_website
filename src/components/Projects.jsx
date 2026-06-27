@@ -1,9 +1,23 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Github, ExternalLink, ShieldCheck, HeartPulse, Landmark, Hand, Eye, Camera, Clock, Globe } from 'lucide-react'
+import { Github, ExternalLink, ShieldCheck, HeartPulse, Landmark, Hand, Eye, Camera, Clock, Globe, ClipboardCheck } from 'lucide-react'
 
 export default function Projects({ darkMode }) {
   const projects = [
+    {
+      id: 8,
+      title: 'AuditFlow – QMS Audit Flow',
+      category: 'web',
+      icon: <ClipboardCheck size={20} className="text-indigo-400" />,
+      description: 'A comprehensive web application designed to manage corporate Quality Management System (QMS) audit lifecycles, log findings, and track raised defects through formal resolution and closure.',
+      highlights: [
+        'Built structured workflows partitioned into 5 modules: Plan, Schedule, Conduct, Report, and Defect Tracking.',
+        'Implemented role-based verification (QA Manager, Auditor, Auditee) and dynamic evidence file uploads.'
+      ],
+      tech: ['React.js', 'Django', 'RESTful APIs', 'Microsoft SQL Server', 'Python'],
+      github: 'https://github.com/Maheshwari0065/Audit_Flow',
+      demo: null,
+    },
     {
       id: 1,
       title: 'SecureBank – Biometric Auth System',

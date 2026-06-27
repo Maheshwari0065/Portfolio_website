@@ -81,8 +81,8 @@ export default function Hero({ darkMode }) {
               </a>
 
               <a 
-                href="/Maheshwari_S_Resume.pdf"
-                download="Maheshwari_S_Resume.pdf"
+                href="/Maheshwari_cv.pdf"
+                download="Maheshwari_cv.pdf"
                 className={`w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-xl border font-medium transition-all ${
                   darkMode 
                     ? 'bg-slate-900 border-slate-800 text-slate-200 hover:bg-slate-850 hover:border-slate-700 hover:text-white' 
